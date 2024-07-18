@@ -47,7 +47,7 @@ def add_task_to_github(priority, task):
     if response.status_code == 200:
         sha = response_json["sha"]
         content = base64.b64decode(response_json["content"]).decode("utf-8")
-        new_content = content + f"{priority}:{task}" + "\n"
+        new_content = content + f"{priority}:{task}\n"
 
         # Update the file content on GitHub
         encoded_content = base64.b64encode(new_content.encode("utf-8")).decode("utf-8")
