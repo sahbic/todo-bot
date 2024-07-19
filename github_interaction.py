@@ -87,7 +87,7 @@ def mark_task_as_done(task_index):
 
         if 1 <= task_index <= len(tasks):
             completed_task = tasks.pop(task_index - 1).strip()
-            new_content = "\n".join(tasks)
+            new_content = "\n".join(tasks) + "\n"
             write_github_file(
                 TODO_FILE_PATH, sha, new_content, f"Mark task as done: {completed_task}"
             )
