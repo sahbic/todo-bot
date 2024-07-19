@@ -57,7 +57,7 @@ WHITELIST_CHAT_ID=comma,separated,list,of,telegram,user,ids
 1. **Run the bot**
 
    ```bash
-   python telegram_bot.py
+   python bot.py
    ```
 
 2. **Available Commands**
