@@ -71,7 +71,7 @@ WHITELIST_CHAT_ID=comma,separated,list,of,telegram,user,ids
 ## Project Structure
 
 ```
-telegram-todo-bot/
+todo-bot/
 │
 ├── config.py                # Configuration file for environment variables
 ├── github_interaction.py    # Functions to interact with GitHub API
@@ -79,10 +79,6 @@ telegram-todo-bot/
 ├── requirements.txt         # List of Python dependencies
 └── .env                     # Environment variables file (not included in version control)
 ```
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Buy me a coffee
 
