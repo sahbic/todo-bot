@@ -1,6 +1,7 @@
 # todo-bot
 
-This project is a Telegram bot that manages a to-do list stored in a GitHub repository. The bot allows users to fetch, add, and mark tasks as done via Telegram commands. All actions are logged in a log file stored in the same GitHub repository.
+This project is a Telegram bot that manages a to-do list stored in a GitHub repository. The bot allows users to fetch, add, and mark tasks as done via Telegram commands.
+
 It's the perfect companion project to [todo-cli](https://github.com/sahbic/todo-cli).
 
 ## Features
