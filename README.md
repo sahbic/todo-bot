@@ -22,8 +22,8 @@ It's the perfect companion project to [todo-cli](https://github.com/sahbic/todo-
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/telegram-todo-bot.git
-   cd telegram-todo-bot
+   git clone https://github.com/sahbic/todo-bot.git
+   cd todo-bot
    ```
 
 2. **Create a virtual environment**
@@ -67,6 +67,26 @@ WHITELIST_CHAT_ID=comma,separated,list,of,telegram,user,ids
    - `/list` - Fetch the current to-do list.
    - `/add <priority> <task>` - Add a new task with a given priority.
    - `/mark <task number>` - Mark a task as done.
+
+## Create service
+
+Copy `todobot.service` to `/etc/systemd/system/`
+
+```
+sudo cp todobot.service /etc/systemd/system/
+```
+
+## Start service
+
+```
+sudo systemctl start todobot.service
+```
+
+## Stop service
+
+```
+sudo systemctl stop todobot.service
+```
 
 ## Project Structure
 
